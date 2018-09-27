@@ -8,9 +8,6 @@ public class StringMain {
         // TODO : 문자열 한개를 입력 받는 다
         // TODO : 입력받은 문자열을 아스키 코드로 출력한다.
 
-        // 선언문 - 변수의 자료형과 초기값을 선언할 때 사용하는 문장
-
-
         System.out.print("Type charator ascii : ");
         Scanner scan = new Scanner(System.in);
 
