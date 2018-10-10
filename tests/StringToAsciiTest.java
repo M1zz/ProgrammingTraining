@@ -1,22 +1,42 @@
-import org.jboss.arquillian.container.test.api.Deployment;
-import org.jboss.arquillian.junit.Arquillian;
-import org.jboss.shrinkwrap.api.ShrinkWrap;
-import org.jboss.shrinkwrap.api.asset.EmptyAsset;
-import org.jboss.shrinkwrap.api.spec.JavaArchive;
-import org.junit.runner.RunWith;
+import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-@RunWith(Arquillian.class)
 public class StringToAsciiTest {
-    @Deployment
-    public static JavaArchive createDeployment() {
-        return ShrinkWrap.create(JavaArchive.class)
-                .addClass(StringToAscii.class)
-                .addAsManifestResource(EmptyAsset.INSTANCE, "beans.xml");
+
+    @Test
+    public void asciiConvertor() {
     }
 
-    @org.junit.Test
-    public void asciiConvertor() {
+    @Test
+    public void getAscii() {
+    }
+
+    @Test
+    public void getName() {
+    }
+
+    @Test
+    public void getAge() {
+    }
+
+    @Test
+    public void getTall() {
+    }
+
+    @Test
+    public void setName() {
+    }
+
+    @Test
+    public void setAge() {
+    }
+
+    @Test
+    public void setTall() {
+    }
+
+    @Test
+    public void printInfo() {
     }
 }
