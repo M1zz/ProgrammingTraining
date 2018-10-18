@@ -1,3 +1,5 @@
+package TDD;
+
 import java.util.Scanner;
 
 public class StringToAscii {
@@ -14,10 +16,6 @@ public class StringToAscii {
         ascii = scan.next().charAt(0);
 
         System.out.print(Integer.valueOf(ascii));
-    }
-
-    public char getAscii() {
-        return ascii;
     }
 
 
