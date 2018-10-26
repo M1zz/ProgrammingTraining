@@ -1,6 +1,4 @@
-package TDD;
-
-import java.util.Scanner;
+package tdd;
 
 public class StringMain {
     public static void main(String args[]) {
@@ -12,6 +10,7 @@ public class StringMain {
         System.out.print(ascii.getName());
         */
         // 계산기 예제
+        /*
         int total = 0;
         int input1, input2;
         Calculator calculator = new Calculator();
@@ -21,5 +20,7 @@ public class StringMain {
         calculator.plus(input1, input2);
         total = input1 + input2;
         System.out.print(total);
+        */
+
     }
 }

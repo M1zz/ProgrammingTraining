@@ -1,4 +1,4 @@
-package TDD;
+package tdd;
 
 import org.junit.Before;
 import org.junit.Test;
